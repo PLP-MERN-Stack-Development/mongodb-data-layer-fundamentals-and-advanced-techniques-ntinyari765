@@ -108,11 +108,3 @@ node insert_books.js
 - `queries.js` — similar check for connection URI and DB/collection names.
 
 ---
-
-If you'd like, I will:
-
-- update `insert_books.js` and `queries.js` to read `MONGODB_URI` from the environment if they don't already,
-- add npm scripts to `examples/package.json` for easier runs, and
-- add a small `verify.js` script that checks the `books` collection has the expected sample documents.
-
-Tell me which of those you'd like and I'll implement it.
